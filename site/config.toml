@@ -1,4 +1,4 @@
-baseurl = "."
+baseurl = "/"
 languageCode = "en-us"
 title = "Casper Theme"
 theme = "hugo-theme-casper"
