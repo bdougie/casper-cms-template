@@ -1,5 +1,5 @@
 [build]
-  command = "npm install ; npm run build"
+  command = "npm install gulp@^3.9.1 ; npm install ; npm rebuild node-sass ; npm run build"
   publish = "dist"
   environment = { NODE_VERSION = "11.15.0" }
 
