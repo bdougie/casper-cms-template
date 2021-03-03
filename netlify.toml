@@ -1,6 +1,7 @@
 [build]
-  command = "npm run build"
+  command = "npm install ; npm run build"
   publish = "dist"
+  environment = { NODE_VERSION = "11.15.0" }
 
 [context.deploy-preview]
   command = "npm run build-preview"
