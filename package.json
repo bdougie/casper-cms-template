@@ -9,7 +9,9 @@
     "build": "gulp build",
     "build-preview": "gulp build-preview",
     "start": "gulp server",
-    "lint": "eslint src"
+    "lint": "eslint src",
+    "preshrinkwrap": "git checkout -- npm-shrinkwrap.json",
+    "postshrinkwrap": "git checkout -- npm-shrinkwrap.json"
   },
   "author": "",
   "license": "MIT",
